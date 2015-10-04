@@ -26,8 +26,9 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'WikihelpRedirect', 
 	'author' => 'Jan Holesovsky', 
 	'url' => 'http://help.libreoffice.org',
-	'description' => 'Enhance redirects to point to the right language version.',
-  'license-name' => 'GPLv2+'
+	'description' => 'Enhance redirects to point to the right language version, code available at [https://github.com/dennisroczek/WikihelpRedirect github]',
+	'version' => '1.0',
+	'license-name' => 'GPLv2+'
 );
 
 $wgHooks['ArticleFromTitle'][] = 'wfWikihelpRedirectArticleFromTitle';
